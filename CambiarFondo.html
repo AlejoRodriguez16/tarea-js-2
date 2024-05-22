@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo botones.css">
+</head>
+<body>
+    <button class="red"></button>
+    <button class="blue"></button>
+    <button class="green"></button>
+    <script>
+   const redButton = document.querySelector('.red');
+        const blueButton = document.querySelector('.blue');
+        const greenButton = document.querySelector('.green');
+
+        redButton.addEventListener('click', function() {
+            document.body.style.backgroundColor = 'red';
+        });
+
+        blueButton.addEventListener('click', function() {
+            document.body.style.backgroundColor = 'blue';
+        });
+
+        greenButton.addEventListener('click', function() {
+            document.body.style.backgroundColor = 'green';
+        });
+    </script>
+</body>
+</html>
